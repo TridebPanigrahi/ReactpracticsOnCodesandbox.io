@@ -38,3 +38,44 @@
 // }
 
 ////================================================================================
+
+// import "./styles.css";
+// import React, { useState } from 'react'
+
+// const countries = [
+//   {name:'India', value:'IN', cities:['Mumbai', 'Delhi']},
+//   {name:'Pak', value:'PK', cities:['Lahore', 'Karachi']},
+//   {name:'Bangladesh', value:'BG', cities:['Dhaka', 'Chittagong']}
+// ];
+
+
+// function App() {
+//   const[store, setStore] = useState('')
+
+//   let hendelChange = (e)=>{
+//     setStore(e.target.value)
+//   }
+//   console.log(store);
+  
+//   return (
+//     <div className="App">
+//       <select value={store} onChange={hendelChange}>
+//         <option>Select Countries</option>
+//         {
+//           countries.map(country=>(
+//             <option key={country.value} value={country.name}>{country.name}</option>
+//           ))
+//         }
+//       </select>
+
+//       <select>
+//         {
+//           store && countries.find((coname)=> coname.name === store)?.cities.map((city)=>(
+//             <option key={city} value={city}>{city}</option>
+//           ))
+//         }
+//       </select>
+//     </div>
+//   );
+// }
+// export default App
